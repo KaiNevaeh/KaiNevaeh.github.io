@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).readyfunction () 
   
 /////////////////
 // initialization
@@ -10,7 +10,7 @@ var maxGhosts = 10;
 var $board = $("#board");
 var boardWidth = $($board).width();
 var boardHeight = $($board).height();
-var ghosts = [];
+var ghosts = $(board);
 var ghostRadius = 10;
 // modify these values if you want faster moving ghosts or a shorter countdown timer
 const FPS = 25;
@@ -80,11 +80,11 @@ function decideSpeed() {
 
 // this generates an id for a ghost given the ghost's number
 function getId(number) {
-  return "ghost" + number; ()
+  return "ghost" + number;
 }
 
 // this adds a ghost into the HTML
-funtion addNewGhostElement(ghost, id) {
+function addNewGhostElement(ghost,id) {
   // this creates the HTML for a new ghost element
   var $ghost = $("<img>")
     .attr("id", id)
@@ -102,11 +102,11 @@ funtion addNewGhostElement(ghost, id) {
 //////////////////
 
 // this should move all of the ghosts
-function update) {
+function update 
   // loop over the ghosts array. We use the maxGhosts variable instead of ghosts.length
   // to make seeing issues in the debugger slightly easier (in practice, you should use
   // ghosts.length, but do NOT change it here)
-  for (var i = 0; i < maxGhosts; i++) {
+ for (var i = 0; i < maxGhosts; i++) {
     var ghost = ghosts[j];
 
     // move the ghost
