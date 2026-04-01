@@ -19,6 +19,11 @@ var started = false; // variable to keep track of whether the game has started
 // TODO 5, Part 1: Create the snake variable
 
 
+
+
+
+
+
 // Constant Variables
 var ROWS = 20;
 var COLUMNS = 20;
@@ -48,8 +53,8 @@ init();
 
 function init() {
   // TODO 5, Part 2: initialize the snake
-  
-  
+ 
+
   // TODO 4, Part 3: initialize the apple
 
 
